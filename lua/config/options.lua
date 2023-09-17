@@ -25,11 +25,12 @@ vim.opt.smartcase = true
 vim.opt.completeopt = 'menuone,noselect'
 vim.opt.wildignorecase = true -- ignore filename and directory case
 vim.opt.pumblend = 10
+vim.opt.wildmode = "full"
 vim.opt.wildoptions = "pum"
-
--- Ignore compiled files
-vim.opt.wildignore = "__pycache__"
-vim.opt.wildignore:append { "*.o", "*.pyc", "*pycache*" }
+vim.opt.wildignore = "__pycache__" -- Ignore python compile files
+vim.opt.wildignore:append { "*.o", "*.pyc", "*pycache*" } -- And more
+vim.keymap.set("c", "<Left>", [[<Space><BS><Left>]])
+vim.keymap.set("c", "<Right>", [[<Space><BS><Right>]])
 
 -- NOTE: You should make sure your terminal supports this
 vim.opt.termguicolors = true
