@@ -24,6 +24,12 @@ vim.opt.smartcase = true
 -- Set completeopt to have a better completion experience
 vim.opt.completeopt = 'menuone,noselect'
 vim.opt.wildignorecase = true -- ignore filename and directory case
+vim.opt.pumblend = 10
+vim.opt.wildoptions = "pum"
+
+-- Ignore compiled files
+vim.opt.wildignore = "__pycache__"
+vim.opt.wildignore:append { "*.o", "*.pyc", "*pycache*" }
 
 -- NOTE: You should make sure your terminal supports this
 vim.opt.termguicolors = true
@@ -48,6 +54,13 @@ vim.opt.colorcolumn = "80"
 -- Decrease update time
 vim.opt.updatetime = 250
 vim.opt.timeoutlen = 300
+
+-- Open splits to preference
+vim.opt.splitright = true
+vim.opt.splitbelow = true
+
+-- Set default text width
+vim.opt.textwidth = 72
 
 -- Disable "How to disable mouse"
 vim.cmd.aunmenu{ "PopUp.How-to\\ disable\\ mouse" }
