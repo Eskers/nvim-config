@@ -16,13 +16,6 @@ return {
                 comments = "none",
             },
 
-            -- For using vim-illuminate with visual background
-            highlights = {
-                IlluminatedWordText = { bg = "#3b3f4c" },
-                IlluminatedWordRead = { bg = "#3b3f4c" },
-                IlluminatedWordWrite = { bg = "#3b3f4c" },
-            },
-
             diagnostics = {
                 undercurl = false,
             }
