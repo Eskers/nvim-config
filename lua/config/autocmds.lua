@@ -50,7 +50,7 @@ vim.api.nvim_create_autocmd("BufWritePre", { command = [[:%s/\s\+$//e]], group =
 --end of file
 vim.api.nvim_create_autocmd("BufWritePre", { command = [[:%s#\($\n\s*\)\+\%$##e]], group = whitespace_group, })
 
--- [[ Required as NVim doesn't seem to respect format options via opt ]]
+-- Set formating settings - required as NVim doesn't seem to respect format options via opt
 local comment_group = vim.api.nvim_create_augroup("FormatOptions", { clear = true })
 
 vim.api.nvim_create_autocmd("FileType", {
