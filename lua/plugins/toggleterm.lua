@@ -26,6 +26,7 @@ return {
         })
 
         require("toggleterm").setup({
+            size = 24,
             open_mapping = [[<C-j>]],
         })
     end
