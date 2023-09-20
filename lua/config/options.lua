@@ -66,3 +66,6 @@ vim.opt.textwidth = 72
 -- Disable "How to disable mouse"
 vim.cmd.aunmenu{ "PopUp.How-to\\ disable\\ mouse" }
 vim.cmd.aunmenu{ "PopUp.-1-" }
+
+-- Set default terminal shell to bash, needed with Flatpak
+vim.opt.shell = "bash"
