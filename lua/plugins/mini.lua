@@ -10,11 +10,6 @@ return {
         opts = {}
     },
     {
-        "echasnovski/mini.animate",
-        version = "*",
-        opts = {}
-    },
-    {
         "echasnovski/mini.bufremove",
         version = "*",
         opts = {}
