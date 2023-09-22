@@ -21,10 +21,6 @@ return {
                 Visual = { bg = "#0e395d" }
 
             },
-
-            diagnostics = {
-                undercurl = false,
-            }
         })
 
         require("onedark").load()
