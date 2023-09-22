@@ -2,11 +2,26 @@ return {
     {
         "echasnovski/mini.surround",
         version = "*" ,
-        opts = {},
+        opts = {}
     },
     {
         "echasnovski/mini.pairs",
         version = "*",
-        opts = {},
-    }
+        opts = {}
+    },
+    {
+        "echasnovski/mini.animate",
+        version = "*",
+        opts = {}
+    },
+    {
+        "echasnovski/mini.bufremove",
+        version = "*",
+        opts = {}
+    },
+    {
+        "echasnovski/mini.splitjoin",
+        version = "*",
+        opts = {}
+    },
 }
