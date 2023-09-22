@@ -49,9 +49,6 @@ vim.opt.softtabstop = 4
 vim.opt.smartindent = true
 vim.opt.shiftwidth = 4
 
--- Show ruler on column
-vim.opt.colorcolumn = "80"
-
 -- Decrease update time
 vim.opt.updatetime = 250
 vim.opt.timeoutlen = 300
@@ -59,9 +56,6 @@ vim.opt.timeoutlen = 300
 -- Open splits to preference
 vim.opt.splitright = true
 vim.opt.splitbelow = true
-
--- Set default text width
-vim.opt.textwidth = 72
 
 -- Disable "How to disable mouse"
 vim.cmd.aunmenu{ "PopUp.How-to\\ disable\\ mouse" }
