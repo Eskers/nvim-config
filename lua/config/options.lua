@@ -63,3 +63,7 @@ vim.cmd.aunmenu{ "PopUp.-1-" }
 
 -- Set default terminal shell to bash, needed with Flatpak
 vim.opt.shell = "bash"
+
+-- Default text width settings
+vim.opt_local.colorcolumn = "101"
+vim.opt_local.textwidth = 100
