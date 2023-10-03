@@ -1,6 +1,6 @@
 return {
     "lukas-reineke/indent-blankline.nvim",
+    main = "ibl",
     opts = {
-        show_traling_blankline_indent = false
     }
 }
